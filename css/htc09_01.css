@@ -1,0 +1,33 @@
+body {
+	font-family: "ＭＳ Ｐゴシック", sans-serif;
+}
+h1 {
+	text-align: center;
+	color: #c03;
+	font-size: 1.3em;
+}
+.text {
+	text-indent: 1em;
+}
+.text:first-letter {
+	font-size: 2em;
+	color: #c30;
+}
+em {
+	font-style: normal;
+	color: #c30;
+}
+strong {
+	color: #c30;
+	font-weight: normal;
+	text-decoration: underline;
+}
+h2, h3 {
+	font-family: "Times New Roman", serif;
+	font-size: 1.1em;
+}
+#inyou {
+	font-size: 12px;
+	text-align: right;
+	font-family: monospace;
+}

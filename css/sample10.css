@@ -1,0 +1,20 @@
+.block {
+	color: tomato;
+	background-color: skyblue;
+	margin-left: 40px;
+	padding-left: 40px;
+	border-left: solid 3px #000;
+}
+.inline {
+	color: skyblue;
+	background-color: tomato;
+	border: solid 1px #000;
+}
+.text, #text {
+	border: 40px 0 40px 0;
+	background-color: tomato;
+}
+body {
+	background-image: url(../images/htc05_logo.png);
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>sample04 - 票の作成</title>
+</head>
+<body>
+	<h1>票の作成</h1>
+	<table border="1">
+		<caption>成績表</caption>
+		<tr>
+			<th>名前</th>
+			<th>国語</th>
+			<th>算数</th>
+		</tr>
+		<tr>
+			<td>ヒラタ</td>
+			<td>40</td>
+			<td>80</td>
+		</tr>
+		<tr>
+			<td>コブチ</td>
+			<td>30</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>ホンダ</td>
+			<td>10</td>
+			<td>12</td>
+		</tr>
+	</table>
+
+	<h2>表のデータ構造</h2>
+	<table border="1">
+		<caption>成績表</caption>
+		<thead>
+			<tr>
+				<th>名前</th>
+				<th>国語</th>
+				<th>算数</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>ヒラタ</td>
+				<td>40</td>
+				<td>80</td>
+			</tr>
+			<tr>
+				<td>コブチ</td>
+				<td>30</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>ホンダ</td>
+				<td>10</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>フィン</td>
+				<td>10</td>
+				<td>12</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>合計</th>
+				<td>90</td>
+				<td>144</td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>属性の</h2>
+	<table border="1">
+		<caption>成績表</caption>
+		<tr>
+			<th width="300px">名前</th>
+			<th width="70">国語</th>
+			<th width="70">算数</th>
+		</tr>
+		<tr>
+			<td height="50px">ヒラタ</td>
+			<td align="center">40</td>
+			<td rowspan="2" align="center">80</td>
+		</tr>
+		<tr>
+			<td height="50px">コブチ</td>
+			<td align="center">30</td>
+			<!-- <td align="center">40</td> -->
+		</tr>
+		<tr>
+			<td height="50px">ホンダ</td>
+			<td align="center">10</td>
+			<td align="center">12</td>
+		</tr>
+		<tr>
+			<th height="50px">合計</th>
+			<td align="center">90</td>
+			<td align="center">144</td>
+		</tr>
+		<tr>
+			<th height="50px">平均</th>
+			<td colspan="2"　align="center">90</td>
+
+		</tr>
+	</table>
+</body>
+</html>

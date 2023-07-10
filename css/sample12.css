@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 1000px;
+	border: solid 1px tomato;
+	margin: 40px auto 0;
+}
+#itemWrap {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+h1 {
+	text-align: center;
+}
+.item {
+	width: 380px;
+	border: solid 2px skyblue;
+	margin: 10px 20px;
+}
+#nav {
+	display: flex;
+	list-style: none;
+	background: tomato;
+	position: relative;
+}
+#nav li {
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 15px 0;
+	border: solid 1px black;
+}
+#nav li:hover {
+	background: blueviolet;
+}
+li a {
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>sample06 - formでデータ送信</title>
+</head>
+<body>
+	<h1>form要素の使い方</h1>
+	<form action="sample06.html" method="get">
+	<h2>input要素</h2>
+	<p><input type="text" size="60" value="入力したデータ" name="data">文字入力</p>
+	<p>名前：<input type="text" placeholder="名前" name="name" required></p>
+	<p><label><input type="checkbox" name="adobe" value="ps">Photoshop</label>
+	<label><input type="checkbox" name="adobe" value="ai" checked>Illustrator</label></p>
+	<p><select>
+		<option value="oosaka">大阪府</option>
+		<option value="kyoto">京都</option>
+		<option value="hyogo">兵庫</option>
+	</select>
+	<textarea cols="60" rows="10" placeholder="住所入力"></textarea></p>
+	<input type="button" value="ボタン">
+	<input type="reset" value="リセット">
+	<input type="submit" value="送信">
+	</form>
+</body>
+</html>

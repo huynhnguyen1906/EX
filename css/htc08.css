@@ -1,0 +1,54 @@
+h1 { color: #9b91db;
+	text-align: center;
+	line-height: 120px;
+}
+h1:hover {
+	color: #3d28a6;
+}p {
+	color: #a6db91;
+}
+/** {
+	color: red;
+}*/
+#title {
+	color: #16abdb;
+	font-size: 14px;
+}
+.sub_title {
+	color: tomato;
+	font-size: 18px;
+	font-style: italic;
+}
+h2.sub_title {
+	color: skyblue;
+	font-size: 24px;
+	font-weight: initial;
+	font-style: normal;
+}
+h2.sub_title:hover {
+	background: tomato;
+}
+#framework li {
+	font-style: italic;
+}
+/*ul li:first-letter {
+	font-size: 30px;
+}*/
+
+/*.first:first-letter {
+	font-size: 30px;
+	color: red;
+}*/
+ul:first-line {
+	font-size: 50px;
+}
+.client_wrap {
+	font-size: 12px;
+}
+.client_wrap p:first-line {
+	font-size: 2em;
+	color: magenta;
+}
+#title,.sub_title {
+	text-decoration: underline;
+}

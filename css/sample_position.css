@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	border: solid 1px #efefef;
+	background-color: skyblue;
+	width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+/*	position: relative;*/
+}
+.logo {
+	width: 640px;
+	margin: 0 auto;
+/*	text-align: center;*/
+}
+#item {
+	position: relative;
+	width: 380px;
+}
+.new {
+	position: absolute;
+	right: -30px;
+	top: -30px;
+	z-index: 1;
+}
+.text {
+	width: 100%;
+	height: 50px;
+	border: solid 1px #fff;
+	overflow: auto;
+	margin-bottom: 50px;
+}
+.thump {
+	position: relative;
+	z-index: 10;
+}

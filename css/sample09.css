@@ -1,0 +1,17 @@
+#ttl {
+	font-family: "ヒラギノ明朝 std", serif;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 100;
+	text-align: center;
+}
+#ln {
+	line-height: 20px;
+	font-size: 20px;
+	text-indent: 40px;
+}
+.check {
+	color: darkred;
+	text-decoration: underline;
+	letter-spacing: 1em;
+}
