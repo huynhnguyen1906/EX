@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body {
+    background-image: url(../images/htc13_03_bk_body.jpg);
+    background-position: top left;
+    background-repeat: repeat;
+}
+ul {
+    list-style-type: none;
+}
+#container {
+    width: 950px;
+    margin: 20px auto 0 auto;
+}
+#header {
+    width: 950px;
+    padding-bottom: 20px;
+}
+#content {
+    display: flex;
+}
+#nav {
+    width: 200px;
+    height: 340px;
+    position: relative;
+}
+#footer {
+    width: 950px;
+    font-size: 0.6em;
+    padding: 10px 0;
+    border-top: 1px dotted #666; 
+    text-align: center;
+}
+#nav ul {
+    width: 180px;
+    padding: 5px 10px;
+    background-color: #efe8d3;
+    position: fixed;
+}
+#nav li {
+    width: 175px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #cdbea0;
+}
+#nav a {
+    display: block;
+    width: 165px;
+    height: 33px;
+    line-height: 23px;
+    padding: 10px 5px 0 5px;
+}
+#nav a:link,#nav a:visited {
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: right;
+    color: #432519;
+    font-weight: bold;
+}
+#company a {
+    background-image: url(../images/htc13_03_btn_nav01.png);
+}
+#company a:hover {
+    background-image: url(../images/htc13_03_btn_nav01_on.png);
+}
+#menu a {
+    background-image: url(../images/htc13_03_btn_nav02.png);
+}
+#menu a:hover {
+    background-image: url(../images/htc13_03_btn_nav02_on.png);
+}
+#special a {
+    background-image: url(../images/htc13_03_btn_nav03.png);
+}
+#special a:hover {
+    background-image: url(../images/htc13_03_btn_nav03_on.png);
+}
+#season a {
+    background-image: url(../images/htc13_03_btn_nav04.png);
+}
+#season a:hover {
+    background-image: url(../images/htc13_03_btn_nav04_on.png);
+}
+#cake a {
+    background-image: url(../images/htc13_03_btn_nav05.png);
+}
+#cake a:hover {
+    background-image: url(../images/htc13_03_btn_nav05_on.png);
+}
+#main {
+    width: 700px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+}
+.mainImg {
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.itemWrap {
+    display: flex;
+    font-size: 0.8em;
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cdbea0;
+    position: relative;
+}
+.itemImg {
+    width: 250px;
+}
+.itemImg img {
+    padding: 2px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.itemContentWrap {
+    width: 350px;
+}
+.itemTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.itemText {
+    line-height: 1.3em;
+}
+.price {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #3d160d;
+    display: block;
+    padding: 0.2em;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 8em;
+}
+.component {
+    width: 350px;
+    border-collapse:collapse;
+}
+.component th,.component td {
+    border: 1px solid #999;
+    padding: 5px;
+    font-size: 0.8em;
+}
+.component caption {
+    font-weight: bold;
+}
+.component th {
+    background-color: #dedede;
+}
+.component td {
+    text-align: center;
+}
+.rcm {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
